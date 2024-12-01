@@ -42,10 +42,11 @@
 }
 .nav-links a {
     text-decoration: none;
-    color: #d1d1d1;
+    color: #e4073e;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 13px;
+    font-family: Garamond;
 }
 .header-title {
     margin-top: 110px;
@@ -54,22 +55,30 @@
 }
 .header-subtitle-text {
     display: inline-block;
-    border-left: 1px solid #8c8c8c;
+    border-left: 1px solid #740aff;
     padding: 8px 0 8px 20px;
-    color: #8c8c8c;
+    color: #af1839;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 1.5px;
     margin-bottom: 13px;
+    font-family: Garamond;
 }
 .header-title-text {
     font-size: 90px;
     font-weight: bold;
-    color: #fff;
+    color: #b60808;
     max-width: 620px;
     line-height: 1;
+    font-family: Garamond;
 }
+
+.header-title-text:hover {
+    color: rgb(71, 15, 15);
+}
+
+
 .join {
     background-color: #febe02;
     position: absolute;
@@ -88,6 +97,14 @@
     border-radius: 6px;
 }
 
+.join-text{
+    font-family: Garamond;
+}
+
+.join-text:hover {
+    color: rgb(56, 56, 197);
+}
+
 .header-info-block {
     display: flex;
     justify-content: space-between;
@@ -104,18 +121,20 @@
 .info-title {
     font-size: 20px;
     font-weight: bold;
-    color: #fff;
+    color: #e9b715;
     letter-spacing: 0.5px;
     margin-top: 15px;
     margin-bottom: 4px;
+    font-family: Garamond;
 }
 
 .info-subtitle {
     font-size: 13px;
-    color: #8c8c8c;
+    color: #cf0620;
     font-weight: bold;
     letter-spacing: 1.5px;
     display: block;
+    font-family: Garamond;
 }
 
 .about-subtitle-text {
@@ -128,6 +147,7 @@
     font-size: 13px;
     letter-spacing: 1.5px;
     margin-bottom: 13px;
+    font-family: Garamond;
 }
 
 .about-desc {
@@ -135,6 +155,11 @@
     max-width: 240px;
     font-size: 14px;
     line-height: 1.8;
+    font-family: Garamond;
+}
+
+.about-desc:hover {
+    color:rgb(156, 65, 0);
 }
 
 .audio-block {
@@ -161,6 +186,7 @@
     margin-top: 15px;
     margin-bottom: 4px;
     text-align: center;
+    font-family: Garamond;
 }
 
 .about-subtitle {
@@ -170,6 +196,7 @@
     letter-spacing: 1.5px;
     text-align: center;
     display: block;
+    font-family: Garamond;
 }
 
 .audio-holder {
@@ -216,6 +243,7 @@
     font-size: 70px;
     color: #1a1a1a;
     margin: 60px 0;
+    font-family: Myriad Variable;
 }
 
 .course-row {
@@ -255,6 +283,7 @@
     padding: 6px 12px;
     display: inline-block;
     margin-right: 8px;
+    font-family: Myriad Variable;
 }
 
 .btn-raiting {
@@ -271,9 +300,10 @@
 .course-category {
     font-size: 13px;
     letter-spacing: 2px;
-    color: #bababa;
+    color: #fa1373;
     font-weight: 400;
     margin: 18px 0;
+    font-family: Myriad Variable;
 }
 
 .course-title {
@@ -282,6 +312,7 @@
     letter-spacing: 0.3px;
     color: #1a1a1a;
     margin-bottom: 20px;
+    font-family: Myriad Variable;
 }
 
 .course-desc {
@@ -290,6 +321,10 @@
     color: #767676;
     line-height: 1.7;
     letter-spacing: 0.5px;
+    font-family: Myriad Variable;
+}
+.course-desc:hover {
+    color: rgb(150, 42, 250);
 }
 
 .img-card-2 {
@@ -304,8 +339,9 @@
 .course-info-title {
     font-weight: 600;
     font-size: 70px;
-    color: #1a1a1a;
+    color: #591be9;
     padding-bottom: 40px;
+    font-family: Skolar PE Variable;
 }
 
 .footer-row {
@@ -338,7 +374,8 @@
     font-weight: 400;
     font-size: 50px;
     letter-spacing: 0.8px;
-    color: #000000;
+    color: #fa0909;
+    font-family: Skolar PE Variable;
 }
 
 .course-count {
@@ -346,7 +383,8 @@
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.5px;
-    color: #9a9a9b;
+    color: #38ee00;
+    font-family: Skolar PE Variable;
 }
 
 @media (max-width: 1120px) {
